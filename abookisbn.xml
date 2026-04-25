@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade">
+    <name>plg_system_abookisbn</name>
+    <author>Alain FERRATON</author>
+    <version>1.46.0</version>
+    <description>Récupération automatique des métadonnées ISBN pour Alexandria Book Library</description>
+    <files>
+        <filename plugin="abookisbn">abookisbn.php</filename>
+        <folder>js</folder>
+    </files>
+</extension>
